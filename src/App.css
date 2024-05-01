@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  .eggs-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .eggs-list th,
+  .eggs-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .eggs-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .eggs-list tr:hover {
+    background-color: #f9f9f9;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    /* background-image: url('My\ first\ design.png'); */
+
+  }
+  
+  .container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f7f7f7; */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #634d2f; /* Dark brown, like eggshell color */
+  }
+  
+  .action-buttons {
+    margin-bottom: 20px;
+
+  }
+  
+  .action-buttons button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #ffffff; /* Light beige, like egg white */
+    color: #634d2f; /* Dark brown, like eggshell color */
+    border: none;
+    cursor: pointer;
+    border: #000000 2px solid;
+
+  }
+  
+  .action-buttons button:hover {
+    background-color: #e0d0b8; /* Lighter beige, on hover */
+  }
+  
+  .eggs-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0e5d8; /* Light beige, like egg white */
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .eggs-list th,
+  .eggs-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .eggs-list th {
+    background-color: #e0d0b8; /* Lighter beige, for table header */
+    color: #634d2f; /* Dark brown, like eggshell color */
+  }
+  
+  .eggs-list tr:hover {
+    background-color: #f0e5d8; /* Light beige, on hover */
+  }
+
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  border: #000000 2px solid;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+.input-style {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    margin: 10px;
+  }
+  
+  .input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
