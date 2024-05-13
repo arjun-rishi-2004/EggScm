@@ -301,6 +301,7 @@ function App() {
   };
   
   const updateEggsList = async () => {
+    console.log("hello")
     if (contract) {
       const total = await contract.methods.totalEggs().call();
       const eggsArray = [];
