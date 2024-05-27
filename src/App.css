@@ -10,7 +10,9 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  
+  .none{
+    background-color: #000000;
+  }
   h1 {
     text-align: center;
     margin-bottom: 20px;
